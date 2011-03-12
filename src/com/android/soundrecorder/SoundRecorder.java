@@ -247,7 +247,7 @@ public class SoundRecorder extends Activity
         }
         
         if (AUDIO_ANY.equals(mRequestedType) || ANY_ANY.equals(mRequestedType)) {
-            mRequestedType = AUDIO_3GPP;
+            mRequestedType = AUDIO_AMR;
         }
         
         setContentView(R.layout.main);
